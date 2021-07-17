@@ -31,7 +31,7 @@ function createList(){
     .map(a =>  a.value)
     .forEach((person, index)=>{
         const listItem = document.createElement('li');
-        console.log(person)
+        // console.log(person)
         listItem.setAttribute('data-index', index);
 
         listItem.innerHTML = `
